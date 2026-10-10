@@ -1,0 +1,11 @@
+[package]
+name = "scapt"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+evalexpr = "13.1.0"
+iced = { version = "0.14.0", features = ["image", "canvas"] }
+mathlex = "0.4.2"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+rfd = "0.15"
